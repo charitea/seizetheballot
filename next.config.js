@@ -4,7 +4,8 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-    basePath: '/seizetheballot'  // Replace with your repo name
+    // Make sure this matches your repository name exactly
+    basePath: '/seizetheballot'  // I see this is your repo name from the error message
   }
   
   module.exports = nextConfig
